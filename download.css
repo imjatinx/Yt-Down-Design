@@ -1,0 +1,38 @@
+.main{
+    margin: 75px;
+    padding-top: 60px;
+}
+
+.button2{
+    height: 50px;
+    border: 0;
+
+}
+.button2:hover{
+    background-color: #adadad;
+}
+th{
+    padding: 20px 40px 20px 40px ;
+}
+.tablehead{
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tablerow{
+    
+    font-size: 15px;
+    font-weight: 400;
+}
+tbody{
+    background-color: white;
+}
+.button3{
+    padding: 8px 20px;
+    border: 0;
+    background-color: #0006ff;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+}

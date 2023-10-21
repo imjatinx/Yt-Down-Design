@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/9a8781307b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <div class="nav">
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="hamburger">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label for="check" class="xmark">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+          <label class="logo"
+            ><a style="font-weight: 700" href="#" class="navbar-brand"
+              ><span style="color: #0006ff">Video</span>Downloader.com</a
+            ></label
+          >
+          <ul>
+            <li><a class="active" href="#">YouTube Downloader</a></li>
+            <li><a href="#">YouTube to MP4</a></li>
+            <li><a href="#">YouTube Shorts Downloader</a></li>
+            <li><a href="#">YouTube Playlist Downloader </a></li>
+            <li><a href="#">YouTube Channel Downloader</a></li>
+            <li><a href="#">YouTube Thumbnail Downloader</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main text-center">
+        <h1
+          id="main-heading"
+          style="
+            margin-bottom: 20px;
+            margin-top: 100px;
+            font-weight: 700;
+            font-size: 32px;
+          "
+        >
+          Free YouTube Video Downloader
+        </h1>
+        <h2 style="font-size: 18px; margin: 30px 0 30px 0; color: #898989">
+          Download videos from YouTube quickly and easily in HD quality
+        </h2>
+
+        <!-- download buttons -->
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="buttons">
+            <a href="#"
+              ><button
+                class="button"
+                onclick="changeText('Free YouTube Video Downloader')"
+              >
+                Video
+              </button></a
+            >
+            <a href="#"
+              ><button
+                class="button"
+                onclick="changeText('Free YouTube MP4 Downloader')"
+              >
+                MP4
+              </button></a
+            >
+            <a href="#"
+              ><button
+                class="button"
+                onclick="changeText('Free YouTube Shorts Downloader')"
+              >
+                Shorts
+              </button></a
+            >
+            <a href="#"
+              ><button
+                class="button"
+                onclick="changeText('Free YouTube Playlist/Chennel Downloader')"
+              >
+                Playlist/Chennel
+              </button></a
+            >
+            <a href="#"
+              ><button
+                class="button"
+                onclick="changeText('Free YouTube Thumbnail Downloader')"
+              >
+                Thumbnail
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- search bar -->
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="search-container">
+          <form>
+            <input
+              type="text"
+              class="custom-input"
+              placeholder="Paste your link here..."
+            />
+            <button class="downloadbtn" type="submit">
+              <a style="color: white" href="/download.html">Download</a>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- social media -->
+      <div
+        style="margin: 30px 0 30px 0; font-weight: 700"
+        class="social-media d-flex justify-content-center align-items-center"
+      >
+        Support us by sharing:
+        <i class="fa-brands fa-twitter fa-x" style="color: #1da1f2; padding: 2px;"></i>
+        <i class="fa-brands fa-facebook fa-x" style="color: #4267b0; padding: 2px;"></i>
+        <i class="fa-brands fa-square-whatsapp" style="color: #40dd7b; padding: 2px;"></i>
+      </div>
+
+      <!-- Shortcut section  -->
+      <div
+        style="background-color: #f7f7f7; border: black"
+        class="sections card border black d-inline-block text-start"
+      >
+        <h1>Quick shortcut to download videos</h1>
+
+        <p>
+          You can quickly download YouTube videos by replacing the "you" in
+          youtube.com with "000". Here's an example:
+        </p>
+
+        <div style="text-align: center; padding: 10px 0 10px 0; font-weight: 500;" class="card border black ">
+          <p>https://www.<span style="color: red;">you</span>tube.com/watch?v=6stlCkUDG_s</p>
+          
+        </div>
+        <div>
+          <p style="font-size: 52px; text-align: center; padding: 12px 0 12px 0;">👇</p>
+        </div>
+
+        <div style="text-align: center; padding: 10px 0 10px 0; font-weight: 500;"  class="card border black">
+          <p>https://www. <span style="color: red;">000</span> tube.com/watch?v=6stlCkUDG_s</p>
+        </div>
+      </div>
+
+      <!-- about section -->
+      <div
+        style="background-color: #f7f7f7; border: black"
+        class="sections card border black d-inline-block text-start"
+      >
+        <p>
+          10downloader is a free online YouTube video downloader that allows
+          users to download videos from YouTube instantly and easily. Simply
+          paste a YouTube link in the textbox above and download your favorite
+          videos right away.
+        </p>
+        <p>
+          With this YouTube downloader tool, you can download YouTube videos in
+          HD quality without having to install any additional software or
+          browser extensions. The tool is 100% online and free to use.
+        </p>
+        <p>
+          We've built this online video tool to allow teachers and educators to
+          save videos for use in the classroom, journalists who want to keep a
+          copy of important videos before they're removed from the platform, and
+          others who wish to download YouTube videos that are copyright-free for
+          offline use.
+        </p>
+        <p>
+          It is the safest and the best alternative to Y2Mate, SaveFrom, BTClod,
+          QDownloader, BitDownloader, X2Mate, 4K Video Downloader, 8Downloader,
+          and other websites that are filled with malicious ads.
+        </p>
+      </div>
+
+      <!-- how to download section -->
+      <div
+        style="background-color: #f7f7f7; border: black"
+        class="sections card border black d-inline-block text-start"
+      >
+        <h1>How to download YouTube videos on PC?</h1>
+        <p>
+          Downloading videos from YouTube on your computer is a quick and
+          straightforward process, thanks to the 10Downloader.
+        </p>
+        <p>Here are the steps.</p>
+
+        <p>
+          1. Go to YouTube's website and open the video that you want to
+          download.
+        </p>
+
+        <p>2. Copy the video's link from your browser's address bar.</p>
+        <img
+          class="img-fluid"
+          src="./assets/img0.png"
+          alt="how to download youtube videos"
+        />
+
+        <p>
+          3. Paste the link into the search box on 10Downloader, such as the one
+          at the top of this page.
+        </p>
+        <img
+          class="img-fluid"
+          src="./assets/img1.png"
+          alt="paste YouTube url in 10Downloader"
+        />
+        <p>
+          4. 10Downloader will automatically begin searching for the video. It
+          will display the results within a few seconds.
+        </p>
+
+        <p>
+          5. Determine the video resolution that you want to save, then
+          right-click on the Download button and select the "Save", "Save As",
+          or "Save Link As" option. The naming will vary depending on the
+          browser that you use.
+        </p>
+        <img
+          class="img-fluid"
+          src="./assets/img2.png"
+          alt="save youtube video by right-clicking"
+          style="width: 70%"
+        />
+
+        <p>
+          6. The YouTube video will begin to download to your computer and will
+          be saved to your default or the selected downloads folder.
+        </p>
+      </div>
+
+      <!-- faq section -->
+      <div
+        style="background-color: #f7f7f7; border: black"
+        class="sections card border black d-inline-block text-start"
+      >
+        <h1>Online YouTube Downloader FAQ</h1>
+        <div class="faq">
+          <div class="faqitem">
+            <div class="ques">How can I download videos from YouTube?</div>
+            <div class="ans">
+              <ol>
+                <li>
+                  Open a web browser and go to YouTube. If you're on mobile, you
+                  can open the YouTube app alternatively.
+                </li>
+                <li>
+                  Go to the video that you wish to download and copy its link.
+                  On desktop, you can copy the video's link from the browser's
+                  URL bar. On the YouTube app, tap the share button and copy the
+                  URL.
+                </li>
+                <li>Go to 10downloader.com in a web browser.</li>
+                <li>
+                  Paste the video's link into the search bar and press the
+                  Download button.
+                </li>
+
+                <li>
+                  Now select the format and quality that you want to download.
+                  The video will get saved to your device.
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faqitem">
+            <div class="ques">
+              Do I need to pay to use this video downloader?
+            </div>
+            <div class="ans">
+              No. Our YouTube downloader is 100% free to use and you don't need
+              to pay for anything.
+            </div>
+          </div>
+          <div class="faqitem">
+            <div class="ques">Which other websites are supported?</div>
+            <div class="ans">10Downloader works with YouTube only.</div>
+          </div>
+          <div class="faqitem">
+            <div class="ques">
+              Can I use this YouTube video downloader on PC or mobile?
+            </div>
+            <div class="ans">
+              Definitely! Since our YouTube downloader is an online tool, you
+              can use it from any computer or mobile device that has access to
+              the internet. Simply open a web browser and visit
+              10downloader.com.
+            </div>
+          </div>
+          <div class="faqitem">
+            <div class="ques">
+              Is it safe to download videos from YouTube using this tool?
+            </div>
+            <div class="ans">
+              Yes! We do not collect or log any user data and the videos that
+              they download.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer section -->
+      <div class="footer">
+        <p style="color: #2e2e2e; font-size: 14px; margin: 0 5px; text-align: center;">
+          Terms of Service
+        </p>
+        <p style="color: #858585; font-size: 14px; text-align: center;">10Downloader.com | 2023</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
