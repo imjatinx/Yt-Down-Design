@@ -108,6 +108,7 @@ nav ul li:hover {
 }
 .button-color {
   background-color: #0006ff;
+  color: white;
 }
 .button:hover {
   background-color: #0006ff;
@@ -124,10 +125,7 @@ nav ul li:hover {
   height: fit-content;
   border: 6px solid #e9e9e9;
   margin: 40px 0 40px 0;
-
-  
   border-radius: 10px;
- 
 }
 form {
   background: #ffff;
@@ -210,9 +208,8 @@ form button {
   }
 
   .custom-input {
-    width: 80px; 
-    
-}
+    width: 80px;
+  }
   .buttons {
     background-color: #f5f3f3;
     border-radius: 50px;
@@ -231,8 +228,10 @@ form button {
 
 @media screen and (max-width: 250px) {
   label.logo {
-    font-size: 10px;
+    font-size: 8px;
+    padding: 0px;
   }
+
   .text {
     border: 1px solid #e9e9e9;
     border-radius: 8px;
@@ -240,10 +239,9 @@ form button {
     font-size: 4px;
   }
   .custom-input {
-    width: 40px; 
-    
-}
-  
+    width: 40px;
+  }
+
   .search-container {
     margin: 0;
     width: 100%;
